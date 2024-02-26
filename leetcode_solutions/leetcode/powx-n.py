@@ -10,7 +10,7 @@ class Solution:
                 return 1
 
             
-            res = power(n-n//2) * power(n//2)
+            res = power(n-(n//2)) * power(n//2)
                 
             return res
         return power(n) if n>=0 else 1/power(abs(n))
